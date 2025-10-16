@@ -12,9 +12,9 @@ const makeChange = (c) => {
 
   change.p = amount; // remaining cents
 
-  return change;
+  console.log(change);
 };
 
 // Do not the change the code below
-const c = prompt("Enter c: ");
+// const c = prompt("Enter c: ");
 alert(JSON.stringify(makeChange(c)));
