@@ -1,4 +1,4 @@
-const makeChange = (c) => {
+const makeChange = (amount) => {
 	const change = { q: 0, d: 0, n: 0, p: 0 };
 
   change.q = Math.floor(amount / 25);
