@@ -12,7 +12,7 @@ const makeChange = (amount) => {
 
   change.p = amount; // remaining cents
 
-  console.log(change);
+  return change;
 };
 
 // Do not the change the code below
